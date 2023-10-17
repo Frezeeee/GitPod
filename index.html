@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gitpod</title>
+		<link rel="stylesheet" href="./style/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="shortcut icon" href="./img/footer-logo.svg" type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+		/>
+	</head>
+	<body>
+		<div id="popup-container" class="hidden">
+			<div id="popup-content">
+				<p>
+					This website uses cookies to enhance the user experience. Read our
+					<a href="#">privacy policy</a>
+					for more info.
+				</p>
+				<button id="close-button">Accept Cookies</button>
+			</div>
+		</div>
+		<header class="header">
+			<div class="header__content">
+				<div class="header__logo">
+					<svg
+						width="132"
+						height="40"
+						viewBox="0 0 131 40"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<g clip-path="url(#clip0_1_41)">
+							<path
+								d="M56.0449 30.4444C50.1877 30.4444 46 26.25 46 20.7222C46 15.1944 50.216 11 55.96 11C58.7895 11 60.9966 12.0833 62.8358 13.6667L61.6757 16.0278C60.2609 14.6389 58.45 13.5 55.8468 13.5C51.6025 13.5 48.5466 16.4167 48.5466 20.7222C48.5466 25.0278 51.5742 27.9444 55.8751 27.9444C59.5818 27.9444 62.2133 25.75 62.6377 22.4167H55.0828V19.9167H65.5239V20.0278C65.5239 26.1389 62.0152 30.4444 56.0449 30.4444Z"
+							/>
+							<path d="M68.1803 16.5556H70.6137V30.4444H68.1803V16.5556Z" />
+							<path
+								d="M82.1393 30.25V28.1389C81.3753 28.2778 80.7528 28.3611 79.8473 28.3611C78.6589 28.3611 78.2345 27.75 78.2345 26.6944V18.6389H82.111V16.5556H78.2345V12.8333H75.8011V16.5556H72.9998V18.6389H75.8011V26.5556C75.8011 29.5 77.131 30.5833 79.7059 30.5833C80.6113 30.5833 81.4036 30.4444 82.1393 30.25Z"
+							/>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M87.0989 36H84.6655V16.5556H87.0989V18.5556C88.259 17.0278 89.9851 16.2222 92.0789 16.2222C96.0969 16.2222 98.8981 19.2222 98.8981 23.5C98.8981 27.7778 96.0969 30.7778 92.0789 30.7778C90.07 30.7778 88.4288 30 87.0989 28.4167V36ZM86.9292 23.5C86.9292 26.5833 88.7967 28.5556 91.6545 28.5556C94.5123 28.5556 96.3798 26.5556 96.3798 23.5C96.3798 20.4444 94.5123 18.4444 91.6545 18.4444C88.7967 18.4444 86.9292 20.4167 86.9292 23.5Z"
+							/>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M100.413 23.5C100.413 27.6667 103.582 30.7778 107.826 30.7778C112.071 30.7778 115.24 27.6667 115.24 23.5C115.24 19.3333 112.071 16.2222 107.826 16.2222C103.582 16.2222 100.413 19.3333 100.413 23.5ZM112.722 23.5C112.722 26.3889 110.769 28.4722 107.826 28.4722C104.884 28.4722 102.931 26.3889 102.931 23.5C102.931 20.6111 104.884 18.5278 107.826 18.5278C110.769 18.5278 112.722 20.6111 112.722 23.5Z"
+							/>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M128.567 11H131V30.4444H128.567V28.4444C127.406 29.9722 125.68 30.7778 123.587 30.7778C119.569 30.7778 116.767 27.7778 116.767 23.5C116.767 19.2222 119.569 16.2222 123.587 16.2222C125.596 16.2222 127.237 17 128.567 18.5833V11ZM128.736 23.5C128.736 20.4167 126.869 18.4444 124.011 18.4444C121.153 18.4444 119.286 20.4444 119.286 23.5C119.286 26.5556 121.153 28.5556 124.011 28.5556C126.869 28.5556 128.736 26.5833 128.736 23.5Z"
+							/>
+							<path
+								d="M69.4026 14.7302C70.3643 14.7302 71.1439 13.9679 71.1439 13.0275C71.1439 12.087 70.3643 11.3247 69.4026 11.3247C68.4408 11.3247 67.6612 12.087 67.6612 13.0275C67.6612 13.9679 68.4408 14.7302 69.4026 14.7302Z"
+							/>
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M21.388 1.99199C22.4572 3.8871 21.8071 6.30126 19.936 7.38418L8.30155 14.1176C7.99402 14.2956 7.8042 14.6271 7.8042 14.9861V25.5563C7.8042 25.9153 7.99402 26.2467 8.30155 26.4247L17.511 31.7548C17.8141 31.9301 18.1859 31.9301 18.489 31.7548L27.6985 26.4247C28.006 26.2467 28.1958 25.9153 28.1958 25.5563V18.9825L19.9175 23.7132C18.0406 24.7858 15.6605 24.1142 14.6015 22.2133C13.5425 20.3123 14.2056 17.9017 16.0825 16.8292L27.9277 10.0602C31.5358 7.99827 36 10.6386 36 14.8346V26.3588C36 29.0581 34.572 31.5504 32.258 32.8896L21.6846 39.009C19.4014 40.3303 16.5986 40.3303 14.3154 39.009L3.74196 32.8896C1.42803 31.5504 0 29.0581 0 26.3588V14.1835C0 11.4843 1.42803 8.99201 3.74196 7.65282L16.064 0.521394C17.9351 -0.561524 20.3188 0.0968852 21.388 1.99199Z"
+								fill="url(#paint0_linear_1_41)"
+							/>
+						</g>
+						<defs>
+							<linearGradient
+								id="paint0_linear_1_41"
+								x1="27.0957"
+								y1="6.04878"
+								x2="8.28086"
+								y2="35.2541"
+								gradientUnits="userSpaceOnUse"
+							>
+								<stop stop-color="#FFB45B" />
+								<stop offset="1" stop-color="#FF8A00" />
+							</linearGradient>
+							<clipPath id="clip0_1_41">
+								<rect width="131" height="40" fill="white" />
+							</clipPath>
+						</defs>
+					</svg>
+				</div>
+				<div class="header__menu">
+					<div class="header__burger-icons">
+						<div class="header__burger">
+							<svg viewBox="0 0 86 63" xmlns="http://www.w3.org/2000/svg">
+								<path d="M4 32L82 32" stroke-width="7" stroke-linecap="round" />
+								<path d="M4 4L82 4" stroke-width="7" stroke-linecap="round" />
+								<path d="M4 59L82 59" stroke-width="7" stroke-linecap="round" />
+							</svg>
+						</div>
+						<div class="header__x">
+							<svg viewBox="0 0 63 63" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M4 59.1543L59.1543 3.99997"
+									stroke-width="7"
+									stroke-linecap="round"
+								/>
+								<path
+									d="M4 4.07715L59.1543 59.2315"
+									stroke-width="7"
+									stroke-linecap="round"
+								/>
+							</svg>
+						</div>
+					</div>
+					<div class="header__main-content">
+						<nav class="header__nav">
+							<a href="" class="header__nav-text">Features</a>
+							<a href="" class="header__nav-text">Pricing</a>
+							<a href="" class="header__nav-text">Blog</a>
+							<a href="" class="header__nav-text">Docs</a>
+							<a href="" class="header__nav-text">Changelog</a>
+							<a href="" class="header__nav-text orange">We're hiring</a>
+						</nav>
+						<button class="header__login">Login</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="section">
+			<div class="container">
+				<div class="section__content">
+					<div class="section__left">
+						<h1 class="section__h1">
+							Always <br />
+							Ready to Code.
+						</h1>
+						<p class="section__p">
+							Spin up fresh, automated dev environments for each task, in the cloud, in
+							seconds.
+						</p>
+						<div class="section__btn">
+							<button class="section__button">Try Now</button>
+							<p class="section__info">
+								Open a workspace. <br />
+								Start from any Git context.
+							</p>
+						</div>
+						<div class="section__svg">
+							<img src="./img/gitlab.svg" alt="gitlab" />
+							<img src="./img/github.svg" alt="github" />
+							<img src="./img/bitbucket.svg" alt="bitbucket" />
+						</div>
+					</div>
+					<div class="section__right">
+						<img src="./img/big-img.svg" alt="" class="section__big-img" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="big-text">
+			<div class="container">
+				<div class="big-text__content">
+					<h2 class="big-text__black">Select project,</h2>
+					<h2 class="big-text__gray">
+						check dependencies, checkout branch, view <br />readme.txt, install tools, run
+						build, run test,
+					</h2>
+					<h2 class="big-text__black">start coding.</h2>
+				</div>
+			</div>
+		</section>
+		<section class="code">
+			<div class="container">
+				<div class="code__content">
+					<div class="code__left">
+						<h3 class="code__h3">Think CI/CD for dev environments</h3>
+						<p class="code__p">
+							We invented prebuilds so application code, configuration and infrastructure
+							can all be stored as machine-executable code in your git repositories and
+							applied to dev environments automatically and continuously.
+						</p>
+						<div class="code__el">
+							<button class="code__orange-btn">More on prebuilds</button>
+							<button class="code__pink-btn">Documentation</button>
+						</div>
+					</div>
+					<div class="code__right">
+						<img src="./img/code.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="big-code">
+			<div class="container">
+				<div class="big-code__content">
+					<h2 class="big-code__h2">Remote-first. Secure by design.</h2>
+					<img src="./img/code2.jpg" alt="" class="big-code__img" />
+					<p class="big-code__p">
+						You no longer need an over-powered laptop to code, Gitpod works just as
+						smoothly on a Chromebook or iPad. All you need is a browser. Gitpod
+						centralizes all source code and never stores it on insecure machines and
+						networks.
+					</p>
+					<div class="big-code__el">
+						<div class="big-code__btn-container">
+							<button>
+								<img src="./img/chrome.svg" alt="" />
+								<p>Chrome Extension</p>
+							</button>
+							<div class="big-code__btn-border"></div>
+						</div>
+						<div class="big-code__btn-container">
+							<button>
+								<img src="./img/firefox.svg" alt="" />
+								<p>Firefox Extension</p>
+							</button>
+							<div class="big-code__btn-border"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="users">
+			<div class="container">
+				<div class="users__content">
+					<h2 class="users__h2">Used by 400,000+ developers.</h2>
+					<div class="swiper users__swiper">
+						<div class="swiper-wrapper users__swiper-wrapper">
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>GitPod is incredibly cool.</p>
+									<p>
+										In my opinion, this is a big step in open source software
+										contribution. I'm excited to see where we go from here.
+									</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/1.jpg" alt="" />
+									<div>
+										<p class="users__name">Ben Halpern</p>
+										<p class="users__info">
+											Creator and Co-founder <span>@forem</span> and
+											<span>@ThePracticalDev</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										Let's say we were overwhelmed how smooth @gitpod workspaces creation &
+										own Docker image for workspaces worked.
+									</p>
+									<p>
+										Plus, installing @code extensions from the store and integrating
+										@gitlab CI. That blew my mind entirely, and that is hard ;)
+									</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/2.jpg" alt="" />
+									<div>
+										<p class="users__name">Michael Friedrich</p>
+										<p class="users__info">CDeveloper Evangelist <span>@GitLab</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										Look at any PR (pull request) in a full coding environment where you
+										can edit, build, and test the PR code, by just prepending "gitpod.io#"
+										to the PR URL. Super useful for reviewing/testing stuff without having
+										to check it out locally!
+									</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/3.jpg" alt="" />
+									<div>
+										<p class="users__name">Julius Volz</p>
+										<p class="users__info">Creator <span>@PrometheusIO</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										I think I’m in love with @gitpod. It’s such a powerful tool. I’ve
+										learned so much in the past week just from stumbling across Github
+										repos that interest me and appending “http://gitpod.io/#” to the URL.
+										A+ tool all around.
+									</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/4.jpg" alt="" />
+									<div>
+										<p class="users__name">David Ressler</p>
+										<p class="users__info">Engineering Manager <span>@instagram</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										This @gitpod thing is magic! Pretty cool, without any extra
+										configuration. Good work!
+									</p>
+									<p>"https://www.gitpod.io/"</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/5.jpg" alt="" />
+									<div>
+										<p class="users__name">Bartłomiej Płotka</p>
+										<p class="users__info">
+											Principal Software Engineer <span>@RedHat</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										Ya'all @gitpod is freaking amazing! We integrated it into our workflow
+										for working on @freeCodeCamp's codebase and I am honestly loving it.
+										🔥🔥!
+									</p>
+									<p>Go check it out on our repo "https://www.gitpod.io/" now!</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/6.jpg" alt="" />
+									<div>
+										<p class="users__name">Mrugesh Mohapatra</p>
+										<p class="users__info">
+											Technology & Community <span>@freeCodeCamp</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide users__swiper-slide">
+								<div>
+									<p>
+										My setup is on @gitpod, just like Christopher McCandless, where I go
+										my code goes with me, no setup whatsoever Smiling face with sunglasses
+										😎 #IntoTheWild
+									</p>
+								</div>
+								<div class="users__swiper-el">
+									<img src="./img/people-face/7.jpg" alt="" />
+									<div>
+										<p class="users__name">Alejandro</p>
+										<p class="users__info">Co-Founder <span>@4GeeksAcademy</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="partners">
+			<div class="container">
+				<div class="partners__content">
+					<img src="./img/logo-section/gitlab.svg" alt="" />
+					<img src="./img/logo-section/freecodecamp.svg" alt="" />
+					<img src="./img/logo-section/dwave.svg" alt="" />
+					<img src="./img/logo-section/google.svg" alt="" />
+					<img src="./img/logo-section/amazon.svg" alt="" />
+					<img src="./img/logo-section/facebook.svg" alt="" />
+					<img src="./img/logo-section/uber.svg" alt="" />
+					<img src="./img/logo-section/openai.svg" alt="" />
+					<img src="./img/logo-section/intel.svg" alt="" />
+					<img src="./img/logo-section/theai.svg" alt="" />
+					<img src="./img/logo-section/codeinstitute.svg" alt="" />
+					<img src="./img/logo-section/4geeks.svg" alt="" />
+				</div>
+			</div>
+		</section>
+		<section class="start">
+			<div class="container">
+				<div class="start__content">
+					<h2 class="start__h2">Get started now</h2>
+					<div class="start__main">
+						<div class="start__left">
+							<h3 class="start__h3">Connect Git repository</h3>
+							<p class="start__p start__left-p">
+								Select a Git provider to start with an existing project from any Git
+								context.
+							</p>
+							<div class="start__buttons">
+								<button class="start__btn">
+									<svg
+										width="28"
+										height="28"
+										viewBox="0 0 28 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_1_839)">
+											<path
+												d="M13.6108 27.2141L8.59601 10.9541H18.6181L13.6108 27.2141Z"
+											/>
+											<path
+												d="M25.6443 10.9541L27.1721 15.8941C27.3103 16.3431 27.1609 16.8381 26.796 17.1171L13.6117 27.2141L25.6443 10.9541Z"
+												fill-opacity="0.65"
+											/>
+											<path
+												d="M25.6443 10.9541H18.6191L21.6431 1.16113C21.7971 0.661133 22.4719 0.661133 22.6324 1.16113L25.6443 10.9541Z"
+											/>
+											<path
+												d="M1.57271 10.9541L0.0513757 15.8941C-0.0867577 16.3431 0.0625757 16.8381 0.427509 17.1171L13.6127 27.2141L1.57271 10.9541Z"
+												fill-opacity="0.65"
+											/>
+											<path
+												d="M1.57266 10.9541H8.596L5.57946 1.16113C5.42453 0.661133 4.75066 0.661133 4.59013 1.16113L1.57266 10.9541Z"
+											/>
+											<path
+												d="M13.6127 27.2141L8.59786 10.9541H1.57266L13.6127 27.2141Z"
+												fill-opacity="0.85"
+											/>
+											<path
+												d="M13.6117 27.2141L25.6443 10.9541H18.6191L13.6117 27.2141Z"
+												fill-opacity="0.85"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_1_839">
+												<rect width="28" height="28" />
+											</clipPath>
+										</defs>
+									</svg>
+									<p>Continue with GitLab</p>
+								</button>
+								<button class="start__btn">
+									<svg
+										width="28"
+										height="28"
+										viewBox="0 0 28 28"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_1_855)">
+											<path
+												fill-rule="evenodd"
+												clip-rule="evenodd"
+												d="M14.0676 0.466797C10.7157 0.467811 7.47753 1.64141 4.95117 3.7708C2.39585 5.92585 0.707205 8.88193 0.18152 12.1204C-0.354352 15.3704 0.300638 18.6992 2.03338 21.5321C3.74434 24.3371 6.43685 26.4578 9.62428 27.5111C10.332 27.6389 10.5821 27.204 10.5821 26.8381V24.4787C6.65724 25.3215 5.82883 22.6129 5.82883 22.6129C5.57207 21.7781 5.01931 21.0574 4.26759 20.5773C2.9989 19.7252 4.3709 19.7252 4.3709 19.7252C4.81504 19.7877 5.23986 19.9492 5.61159 20.1965C5.98428 20.4439 6.29421 20.7724 6.51918 21.1569C6.70938 21.4985 6.96718 21.7991 7.27614 22.0427C7.73716 22.4095 8.30274 22.632 8.89772 22.6807C9.49271 22.7294 10.0889 22.6019 10.6072 22.3152C10.6622 21.6143 10.9683 20.9553 11.4703 20.4579C8.34787 20.1088 5.06897 18.916 5.06897 13.6445C5.04557 12.272 5.5606 10.9418 6.51049 9.92146C6.0892 8.72291 6.13834 7.41648 6.64855 6.25066C6.64855 6.25066 7.83035 5.87546 10.5126 7.67306C12.8146 7.04846 15.2501 7.04846 17.5521 7.67306C20.2353 5.87546 21.4084 6.25066 21.4084 6.25066C21.9259 7.40146 21.9877 8.70253 21.5812 9.89626C22.5306 10.9165 23.0452 12.2463 23.0218 13.6184C23.0218 18.9505 19.7352 20.1172 16.603 20.4317C16.939 20.7659 17.1988 21.1663 17.3639 21.6077C17.528 22.0483 17.5956 22.5187 17.5608 22.9881V26.7952C17.5608 27.2469 17.8119 27.596 18.5263 27.4597C21.6777 26.3791 24.33 24.2525 26.011 21.4584C27.7132 18.6369 28.3512 15.3324 27.8166 12.1073C27.292 8.89339 25.6219 5.95774 23.0952 3.80813C20.5973 1.68476 17.3937 0.499032 14.0676 0.466797Z"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_1_855">
+												<rect width="28" height="28" />
+											</clipPath>
+										</defs>
+									</svg>
+									<p>Continue with GitHub</p>
+								</button>
+								<button class="start__btn">
+									<svg
+										width="28"
+										height="28"
+										viewBox="0 0 28 28"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<g clip-path="url(#clip0_1_850)">
+											<path
+												d="M0.8794 0.291504H0.869029C0.743437 0.292157 0.619453 0.323319 0.505554 0.382858C0.391656 0.442396 0.290531 0.528906 0.209097 0.636472C0.127662 0.744038 0.0678389 0.870122 0.0337182 1.0061C-0.00040251 1.14208 -0.00801556 1.28474 0.0113997 1.42434L3.69703 26.5998C3.7914 27.2333 4.28088 27.7023 4.85229 27.7082H22.5369C22.7448 27.7105 22.9465 27.6291 23.1057 27.4786C23.2649 27.3282 23.371 27.1187 23.4049 26.888L27.0905 1.429C27.1099 1.28951 27.1023 1.14694 27.0683 1.01105C27.0342 0.87515 26.9745 0.749125 26.8932 0.641579C26.8118 0.534033 26.7108 0.447499 26.5971 0.387888C26.4833 0.328276 26.3594 0.296991 26.2339 0.296171H26.2225L0.8794 0.291504ZM16.4018 18.4857H10.7572L9.22859 9.5035H17.7696L16.4007 18.4868L16.4018 18.4857Z"
+											/>
+										</g>
+										<defs>
+											<clipPath id="clip0_1_850">
+												<rect width="28" height="28" />
+											</clipPath>
+										</defs>
+									</svg>
+									<p>Continue with BitBucket</p>
+								</button>
+							</div>
+							<p class="start__info">
+								Or prefix any GitLab, GitHub or Bitbucket URL with
+							</p>
+							<a href="#" class="start__a">gitpod.io/#</a>
+						</div>
+						<div class="start__right">
+							<h3 class="start__h3">Launch an example workspace</h3>
+							<p class="start__p start__right-p">
+								Dive into one of our example workspaces
+							</p>
+							<div class="start__right-table">
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/typescript.svg" alt="" />
+										<p class="start__el-p">Node or TypeScript</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/python.svg" alt="" />
+										<p class="start__el-p">Python</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/go.svg" alt="" />
+										<p class="start__el-p">Go</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/rust.svg" alt="" />
+										<p class="start__el-p">Rust</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/java.svg" alt="" />
+										<p class="start__el-p">Java</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+								<div class="start__right-el">
+									<div class="start__el-left">
+										<img src="./img/svelte.svg" alt="" />
+										<p class="start__el-p">Svelte</p>
+									</div>
+									<button class="start__el-btn">Launch workspace</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__content">
+					<div class="footer__nav">
+						<nav>
+							<a href="">Gitpod</a>
+							<a href="">Home</a>
+							<a href="">Features</a>
+							<a href="">Pricing</a>
+							<a href="">Changelog</a>
+							<a href="">Self-Hosted</a>
+							<a href="">Gitpod vs GitHub Codespaces</a>
+							<a href="">Status</a>
+						</nav>
+						<nav>
+							<a href="">Developer</a>
+							<a href="">Getting started</a>
+							<a href="">Screencasts</a>
+							<a href="">Blog</a>
+							<a href="">Documentation</a>
+							<a href="">Report a bug</a>
+							<a href="">Community</a>
+						</nav>
+						<nav>
+							<a href="">Company</a>
+							<a href="">About</a>
+							<a href="" class="orange">Careers</a>
+							<a href="">Contact</a>
+							<a href="">Media Kit</a>
+						</nav>
+						<nav>
+							<a href="">Legal</a>
+							<a href="">Imprint</a>
+							<a href="">Terms of Service</a>
+							<a href="">Privacy Policy</a>
+						</nav>
+					</div>
+					<hr class="footer__hr" />
+					<div class="footer__last">
+						<div class="footer__left">
+							<svg
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_1_74)">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M14.07 1.19487C14.2254 1.46531 14.3257 1.76382 14.3652 2.0732C14.4047 2.38258 14.3826 2.69672 14.3002 2.99752C14.2177 3.29832 14.0765 3.57983 13.8848 3.82584C13.6931 4.07184 13.4546 4.27747 13.183 4.43087L6.073 8.47087C5.98099 8.52306 5.90441 8.59864 5.85102 8.68996C5.79763 8.78128 5.76934 8.88509 5.769 8.99087V15.3339C5.76934 15.4397 5.79763 15.5435 5.85102 15.6348C5.90441 15.7261 5.98099 15.8017 6.073 15.8539L11.701 19.0529C11.7921 19.1047 11.8952 19.1319 12 19.1319C12.1048 19.1319 12.2079 19.1047 12.299 19.0529L17.927 15.8549C18.0192 15.8026 18.0958 15.7269 18.1492 15.6354C18.2026 15.5438 18.2308 15.4398 18.231 15.3339V11.3899L13.171 14.2279C12.6204 14.5369 11.97 14.6157 11.3616 14.4471C10.7531 14.2785 10.236 13.8762 9.923 13.3279C9.76928 13.0566 9.67074 12.7576 9.63305 12.4482C9.59536 12.1387 9.61926 11.8248 9.70337 11.5246C9.78749 11.2243 9.93016 10.9437 10.1232 10.6989C10.3162 10.454 10.5557 10.2498 10.828 10.0979L18.067 6.03587C20.272 4.79987 23 6.38287 23 8.90087V15.8149C23 17.4349 22.127 18.9299 20.713 19.7339L14.252 23.4049C13.5655 23.7948 12.7895 23.9998 12 23.9998C11.2105 23.9998 10.4345 23.7948 9.748 23.4049L3.287 19.7339C2.59342 19.3411 2.01636 18.7714 1.61462 18.083C1.21287 17.3946 1.00079 16.612 1 15.8149V8.50987C1 6.88987 1.873 5.39487 3.287 4.59187L10.817 0.311873C11.366 -0.000109702 12.0161 -0.0823635 12.6255 0.0830506C13.2348 0.248465 13.7541 0.648127 14.07 1.19487Z"
+										fill="url(#paint0_linear_1_74)"
+									/>
+								</g>
+								<defs>
+									<linearGradient
+										id="paint0_linear_1_74"
+										x1="17.558"
+										y1="3.62887"
+										x2="6.356"
+										y2="21.3399"
+										gradientUnits="userSpaceOnUse"
+									>
+										<stop stop-color="#FFB45B" />
+										<stop offset="1" stop-color="#FF8A00" />
+									</linearGradient>
+									<clipPath id="clip0_1_74">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<p class="footer__p">Copyright © 2021 Gitpod</p>
+						</div>
+						<div class="footer__right">
+							<svg
+								class="footer__twitter"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_1_66)">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12ZM11.6406 9.75375L11.6658 10.169L11.2461 10.1181C9.71843 9.92323 8.38383 9.26226 7.25067 8.15216L6.69668 7.60135L6.55399 8.0081C6.25181 8.91482 6.44487 9.87239 7.0744 10.5164C7.41015 10.8723 7.33461 10.9232 6.75544 10.7113C6.55399 10.6435 6.37772 10.5927 6.36093 10.6181C6.30218 10.6774 6.50363 11.4486 6.66311 11.7536C6.88134 12.1773 7.32621 12.5925 7.81305 12.8383L8.22435 13.0332L7.73751 13.0417C7.26746 13.0417 7.25067 13.0501 7.30103 13.2281C7.46891 13.7789 8.13201 14.3636 8.87066 14.6178L9.39108 14.7958L8.93781 15.067C8.26631 15.4568 7.4773 15.6771 6.68829 15.694C6.31057 15.7025 6 15.7364 6 15.7618C6 15.8466 7.02404 16.3211 7.61999 16.5075C9.40786 17.0584 11.5315 16.8211 13.1263 15.8805C14.2595 15.211 15.3926 13.8806 15.9214 12.5925C16.2068 11.9062 16.4922 10.652 16.4922 10.0503C16.4922 9.66054 16.5174 9.60969 16.9874 9.14362C17.2644 8.87245 17.5246 8.57586 17.575 8.49112C17.6589 8.33011 17.6505 8.33011 17.2224 8.47417C16.509 8.72839 16.4083 8.6945 16.7608 8.31317C17.021 8.042 17.3316 7.5505 17.3316 7.40645C17.3316 7.38102 17.2057 7.42339 17.063 7.49966C16.9119 7.5844 16.5761 7.71151 16.3243 7.78778L15.8711 7.93184L15.4598 7.65219C15.2331 7.49966 14.9142 7.33018 14.7463 7.27934C14.3182 7.1607 13.6635 7.17765 13.2774 7.31323C12.2282 7.69456 11.5651 8.67755 11.6406 9.75375Z"
+									/>
+								</g>
+								<defs>
+									<linearGradient
+										id="paint0_linear_1_66"
+										x1="3.45"
+										y1="3.45"
+										x2="21.107"
+										y2="22.6608"
+										gradientUnits="userSpaceOnUse"
+									>
+										<stop stop-color="#FFAD33" />
+										<stop offset="1" stop-color="#FF8A00" />
+									</linearGradient>
+									<clipPath id="clip0_1_66">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<svg
+								class="footer__github"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_1_58)">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M12.0575 6.36076e-06C9.19512 -0.00296524 6.42524 1.03535 4.24425 2.92889C2.06326 4.82242 0.61373 7.4474 0.155424 10.3334C-0.302881 13.2194 0.259995 16.1778 1.74318 18.6784C3.22637 21.179 5.53292 23.0584 8.24948 23.9798C8.85581 24.0931 9.07024 23.7079 9.07024 23.3831C9.07024 23.0584 9.07024 22.3182 9.07024 21.291C5.70585 22.0387 4.996 19.637 4.996 19.637C4.77281 18.8926 4.29863 18.2531 3.65764 17.8319C2.57068 17.0766 3.74637 17.0766 3.74637 17.0766C4.1274 17.1316 4.49118 17.2744 4.81017 17.4942C5.12916 17.7141 5.395 18.0052 5.58754 18.3455C5.75115 18.6485 5.97172 18.9155 6.23661 19.1312C6.5015 19.347 6.80549 19.5071 7.13113 19.6026C7.45677 19.698 7.79765 19.7268 8.13422 19.6874C8.47079 19.6479 8.79642 19.541 9.09242 19.3726C9.13883 18.7513 9.40107 18.1674 9.83185 17.7262C7.15513 17.4165 4.34531 16.3591 4.34531 11.684C4.32693 10.4627 4.76906 9.28099 5.58015 8.38349C5.21891 7.3216 5.26113 6.15988 5.69846 5.12828C5.69846 5.12828 6.71147 4.79596 9.01109 6.38958C10.9858 5.83579 13.0701 5.83579 15.0448 6.38958C17.3444 4.79596 18.35 5.12828 18.35 5.12828C18.7935 6.14897 18.8462 7.30235 18.4979 8.36083C19.309 9.25834 19.7511 10.4401 19.7328 11.6614C19.7328 16.3893 16.9156 17.4241 14.2314 17.7035C14.5192 17.999 14.7415 18.3543 14.8831 18.7452C15.0247 19.1361 15.0824 19.5536 15.0522 19.9693C15.0522 21.6158 15.0522 22.9451 15.0522 23.3454C15.0522 23.7456 15.2666 24.0553 15.8804 23.9345C18.566 22.9888 20.838 21.1041 22.295 18.6132C23.752 16.1223 24.3002 13.1856 23.8428 10.3219C23.3854 7.45814 21.9518 4.85167 19.7953 2.96295C17.6388 1.07422 14.8982 0.024771 12.0575 6.36076e-06Z"
+									/>
+								</g>
+								<defs>
+									<linearGradient
+										id="paint0_linear_1_58"
+										x1="3.45"
+										y1="3.45"
+										x2="21.107"
+										y2="22.6608"
+										gradientUnits="userSpaceOnUse"
+									>
+										<stop stop-color="#FFAD33" />
+										<stop offset="1" stop-color="#FF8A00" />
+									</linearGradient>
+									<clipPath id="clip0_1_58">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+							<svg
+								class="footer__msg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_1_62)">
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M0 11.7908C0 5.2781 5.48155 0 11.9919 0C18.4953 0 23.7804 5.48618 23.7804 11.9965C23.7804 18.5069 18.5 23.9884 11.9896 23.9884L0 24V11.7908ZM5.8306 8.13398C7.14804 5.9215 9.53234 4.56533 12.1074 4.56381H12.1143C15.0968 4.56526 17.7792 6.37901 18.8915 9.14636C20.0038 11.9137 19.3228 15.0793 17.1709 17.1445C15.019 19.2096 11.8281 19.7599 9.1088 18.5347L4.36012 19.6074L5.68254 15.3535C4.45692 13.0889 4.51317 10.3465 5.8306 8.13398Z"
+									/>
+								</g>
+								<defs>
+									<linearGradient
+										id="paint0_linear_1_62"
+										x1="3.41843"
+										y1="3.45"
+										x2="21.0884"
+										y2="22.499"
+										gradientUnits="userSpaceOnUse"
+									>
+										<stop stop-color="#FFAD33" />
+										<stop offset="1" stop-color="#FF8A00" />
+									</linearGradient>
+									<clipPath id="clip0_1_62">
+										<rect width="24" height="24" fill="white" />
+									</clipPath>
+								</defs>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+	<script src="./script/script.js"></script>
+</html>
